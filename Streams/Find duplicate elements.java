@@ -17,7 +17,7 @@ public class Main
 	             
 	             
 	             
-	           
+	    // using stream       
         List<Integer> duplicates = list.stream()
                                 .collect(Collectors.groupingBy(
                                         Function.identity(),
